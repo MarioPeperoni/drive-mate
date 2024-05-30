@@ -1,0 +1,9 @@
+[submodule "front"]
+	path = front
+	url = https://github.com/MarioPeperoni/drive-mate-frontend.git
+[submodule "client"]
+	path = client
+	url = https://github.com/MarioPeperoni/drive-mate-web
+[submodule "server"]
+	path = server
+	url = https://github.com/MarioPeperoni/drive-mate-backend
