@@ -27,8 +27,11 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
 |  2 | Funkcjonalność umieszczania, edytowania ogłoszeń|Użytkownik będzie mógł dodawać oraz edytować dodane przez siebie ogłoszenia skąd-dokąd jedzie, kiedy, jakim pojazdem, ile ma miejsc, jaka jest kwota przejazdu | 1         | F         |
 |  3 | Wyświetlana lista ze wszystkimi przejazdami  | Każdy użytkownik będzie mógł przeglądać dodane przez innych użytkowników przejazdy | 1         | F         |
 |  4 | Widoczność z kim się jedzie  | Użytkownik będzie mógł zobaczyć kto jeszcze jest pasażerem w danym przejeździe | 3         | F         |
-|  5 | Wyszukiwarka przejazdów   | UUżytkownik będzie mógł w sprawny sposób zawęzić poszukiwania wygranego przez siebie kierunku przejazdu używając wbudowanej wyszukiwarki | 2         | F         |
+|  5 | Wyszukiwarka przejazdów   | Użytkownik będzie mógł w sprawny sposób zawęzić poszukiwania wygranego przez siebie kierunku przejazdu używając wbudowanej wyszukiwarki | 2         | F         |
 |  6 | API od Google do określania długości i czasu przejazdu   | Zostanie zastosowane API od Google pozwalające precyzyjnie określić czas i odległość przejazdu między miejscami docelowymi  | 2         | NF         |
+| 7 | Ciemny tryb | Użytkownik może zmienić motyw strony na ciemny | 1 | NF |
+
+
 
 ## Architektura oprogramowania
 
