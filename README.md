@@ -35,6 +35,12 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
 | Kontrola wersji             | Git                                 |
 | Środowisko programistyczne  | Visual Studio Code                  |
 
+## Wymagania
+
+| ID | Nazwa                               | Opis                                                                                                | Priorytet | Kategoria |
+|----| ----------------------------------- |-----------------------------------------------------------------------------------------------------|-----------|-----------|
+|  1 | Możliwość logowania i rejestracji   | Użytkownik aby skorzystać z niektórych funkcjonalności na stronie będzie musiał być uwierzytelniony | 1         | F         |
+
 ## Scenariusze testowe
 
 ### Testowanie listy przejazdów
@@ -150,3 +156,5 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
   1.  Wypełnienie pól wyszukiwania (np. miejsce początkowe i końcowe).
   2.  Zatwierdzenie formularza wyszukiwania.
 - **Oczekiwany Rezultat**: Po zatwierdzeniu formularza wyszukiwania poprawne zapytanie jest przekazywane do routera.
+- 
+
