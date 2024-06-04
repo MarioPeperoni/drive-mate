@@ -161,5 +161,51 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
   1.  Wypełnienie pól wyszukiwania (np. miejsce początkowe i końcowe).
   2.  Zatwierdzenie formularza wyszukiwania.
 - **Oczekiwany Rezultat**: Po zatwierdzeniu formularza wyszukiwania poprawne zapytanie jest przekazywane do routera.
-- 
+
+## Uruchomienie
+Aby uruchomić aplikację Drive-Mate, wykonaj następujące kroki:
+
+### Client
+   ```sh
+   npm run dev
+   ```
+
+### Serwer
+   ```sh
+   dotnet run
+   ```
+
+
+### Ustawienia
+
+Ważne jest aby skonfigurować plik .env.local i wszystkie wymagane sekrety środowiskowe. Serwer musi być dostępny publicznie, aby webhook działał poprawnie.
+> .env
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/auth/login
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/auth/register
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```
+> dotnet user-secrets
+```env
+SendGrid:ApiKey = 
+GoogleApi:Key = 
+Clerk:Webhook = 
+Clerk:SecretKey = 
+Clerk:AuthorizedParty = 
+Clerk:Authority = 
+
+```
+
+
+
+
+
+
+
+
+
 
