@@ -186,7 +186,7 @@ Aby uruchomić aplikację Drive-Mate, wykonaj następujące kroki:
 ### Ustawienia
 
 Ważne jest aby skonfigurować plik .env.local i wszystkie wymagane sekrety środowiskowe. Serwer musi być dostępny publicznie, aby webhook działał poprawnie.
-> .env
+> .env.local
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
