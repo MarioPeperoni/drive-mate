@@ -46,6 +46,13 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
 | Kontrola wersji             | Git                                 |
 | Środowisko programistyczne  | Visual Studio Code                  |
 
+## Serwisy zewnętrzne
+|Serwis | Działanie |
+|---|---|
+| Clerk | Uwierzytelnianie i autoryzacja użytkowników |
+| Google Maps API | Obliczanie dystansu trasy i przewidywanego czasu przyjazdu |
+| SendGrid | Wysyłanie e-maili potwierdzających rezerwacje |
+
 ## Scenariusze testowe
 
 ### Testowanie listy przejazdów
