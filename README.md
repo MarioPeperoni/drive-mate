@@ -29,7 +29,8 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
 |  4 | Widoczność z kim się jedzie  | Użytkownik będzie mógł zobaczyć kto jeszcze jest pasażerem w danym przejeździe | 3         | F         |
 |  5 | Wyszukiwarka przejazdów   | Użytkownik będzie mógł w sprawny sposób zawęzić poszukiwania wygranego przez siebie kierunku przejazdu używając wbudowanej wyszukiwarki | 2         | F         |
 |  6 | API od Google do określania długości i czasu przejazdu   | Zostanie zastosowane API od Google pozwalające precyzyjnie określić czas i odległość przejazdu między miejscami docelowymi  | 2         | NF         |
-| 7 | Ciemny tryb | Użytkownik może zmienić motyw strony na ciemny | 1 | NF |
+| 7 | Ciemny tryb | Użytkownik może zmienić motyw strony na ciemny | 3 | F |
+
 
 
 
