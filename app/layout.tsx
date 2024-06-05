@@ -12,6 +12,36 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Drive Mate",
   description: "Best carpooling app, connecting drivers and passengers.",
+  keywords: [
+    "carpooling",
+    "ride-sharing",
+    "drivers",
+    "passengers",
+    "transportation",
+    "Drive Mate",
+  ],
+  applicationName: "Drive Mate",
+  robots: "index",
+  openGraph: {
+    type: "website",
+    url: "https://www.drivemate.com",
+    title: "Drive Mate - Best Carpooling App",
+    description: "Best carpooling app, connecting drivers and passengers.",
+    images: [
+      {
+        url: "https://www.drivemate.com/og-image.jpg",
+        width: 800,
+        height: 600,
+        alt: "Drive Mate Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@DriveMate",
+    title: "Drive Mate - Best Carpooling App",
+    description: "Best carpooling app, connecting drivers and passengers.",
+  },
 };
 
 export default function RootLayout({
