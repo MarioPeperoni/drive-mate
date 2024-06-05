@@ -44,6 +44,13 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * Root layout component that wraps the entire application.
+ *
+ * @param {Object} props - The component props.
+ * @param {React.ReactNode} props.children - The child components to render.
+ * @returns {React.ReactNode} The rendered root layout component.
+ */
 export default function RootLayout({
   children,
 }: Readonly<{

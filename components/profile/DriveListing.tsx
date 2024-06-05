@@ -12,6 +12,13 @@ interface DriveListingProps {
   ride: Ride;
 }
 
+/**
+ * Renders a card component displaying information about a ride.
+ *
+ * @component
+ * @param {DriveListingProps} ride - The ride object containing information about the ride.
+ * @returns {JSX.Element} The rendered DriveListing component.
+ */
 const DriveListing = ({ ride }: DriveListingProps) => {
   const currentDate = new Date();
   const daysDifference = differenceInDays(ride.startDate, currentDate);

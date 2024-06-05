@@ -6,11 +6,20 @@ interface ReservationElementProps {
   ride: Ride;
 }
 
+/**
+ * Renders a card component displaying other passengers on a ride.
+ *
+ * @component
+ * @param {Object} ride - The ride object containing information about the ride.
+ * @returns {JSX.Element} The rendered card component.
+ */
 const ReservationForm = ({ ride }: ReservationElementProps) => {
   return (
     <Card>
       <CardHeader className="pt-4">
-        <CardTitle className=" text-lg">Other passagers on this ride</CardTitle>
+        <CardTitle className=" text-lg">
+          Other passengers on this ride
+        </CardTitle>
       </CardHeader>
       <CardContent className=" flex flex-col gap-2">
         {ride.passengers?.map((passenger) => (

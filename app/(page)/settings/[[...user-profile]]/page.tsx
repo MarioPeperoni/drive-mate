@@ -1,5 +1,9 @@
 import { UserProfile } from "@clerk/nextjs";
 
+/**
+ * Represents the UserProfilePage component.
+ * This component renders the user profile page with the UserProfile component.
+ */
 const UserProfilePage = () => (
   <div className="my-4 flex items-center justify-center">
     <UserProfile

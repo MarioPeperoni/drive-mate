@@ -14,6 +14,14 @@ import {
 } from "@/components/ui/popover";
 import { FormControl, FormItem } from "@/components/ui/form";
 
+/**
+ * Renders a date picker component.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {any} props.field - The field object containing the value and onChange function.
+ * @returns {JSX.Element} The rendered DatePicker component.
+ */
 const DatePicker = ({ field }: { field: any }) => {
   return (
     <FormItem className="flex flex-col">

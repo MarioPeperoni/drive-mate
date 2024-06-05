@@ -6,6 +6,14 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 import DriveListing from "@/components/profile/DriveListing";
 
+/**
+ * Renders a card displaying the rides of a user as a passenger.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {string} props.userId - The ID of the user.
+ * @returns {JSX.Element} The rendered component.
+ */
 const RidesAsPassagerCard = ({ userId }: { userId: string }) => {
   const [rides, setRides] = useState<Ride[]>([]);
   const [isFetching, setIsFetching] = useState(true);
@@ -30,14 +38,14 @@ const RidesAsPassagerCard = ({ userId }: { userId: string }) => {
     <section>
       <Card>
         <CardHeader>
-          <CardTitle>Rides as passager ({rides.length})</CardTitle>
+          <CardTitle>Rides as passenger ({rides.length})</CardTitle>
         </CardHeader>
         <CardContent className="space-y-1">
           {rides.length > 0
             ? rides.map((ride) => <DriveListing ride={ride} key={ride.id} />)
             : !isFetching && (
                 <p className="text-center text-muted-foreground">
-                  You have no rides as passager
+                  You have no rides as passenger
                 </p>
               )}
         </CardContent>

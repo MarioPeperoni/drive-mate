@@ -20,6 +20,42 @@ export interface TimePickerInputProps
   onLeftFocus?: () => void;
 }
 
+/**
+ * A custom input component for selecting time in a picker.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <TimePickerInput
+ *   className="my-input"
+ *   value={selectedTime}
+ *   id="time-input"
+ *   name="time"
+ *   date={selectedDate}
+ *   setDate={setSelectedDate}
+ *   onChange={handleTimeChange}
+ *   onKeyDown={handleKeyDown}
+ *   picker="hour"
+ *   onLeftFocus={handleLeftFocus}
+ *   onRightFocus={handleRightFocus}
+ * />
+ * ```
+ *
+ * @param className - The CSS class name for the input element.
+ * @param type - The type of the input element. Default is "tel".
+ * @param value - The value of the input element.
+ * @param id - The id attribute of the input element.
+ * @param name - The name attribute of the input element.
+ * @param date - The selected date object.
+ * @param setDate - A function to update the selected date.
+ * @param onChange - A function to handle the change event of the input element.
+ * @param onKeyDown - A function to handle the keydown event of the input element.
+ * @param picker - The type of picker to display (e.g., "hour", "minute").
+ * @param onLeftFocus - A function to handle the focus event when moving left.
+ * @param onRightFocus - A function to handle the focus event when moving right.
+ * @param props - Additional props to be spread to the input element.
+ * @returns The rendered TimePickerInput component.
+ */
 const TimePickerInput = React.forwardRef<
   HTMLInputElement,
   TimePickerInputProps

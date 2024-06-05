@@ -15,6 +15,14 @@ interface ReservationElementProps {
   ride: Ride;
 }
 
+/**
+ * Renders a button component for reserving or removing a ride listing.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {Object} props.ride - The ride object.
+ * @returns {JSX.Element} The rendered component.
+ */
 const ReservaionButton = ({ ride }: ReservationElementProps) => {
   const { getToken } = useAuth();
   const user = useUser();

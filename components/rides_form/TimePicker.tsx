@@ -10,6 +10,12 @@ interface TimePickerDemoProps {
   setDate: (date: Date | undefined) => void;
 }
 
+/**
+ * Renders a TimePicker demo component.
+ *
+ * @param {TimePickerDemoProps} props - The component props.
+ * @returns {JSX.Element} The rendered TimePicker demo component.
+ */
 export function TimePickerDemo({ date, setDate }: TimePickerDemoProps) {
   const minuteRef = React.useRef<HTMLInputElement>(null);
   const hourRef = React.useRef<HTMLInputElement>(null);

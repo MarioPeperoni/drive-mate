@@ -6,6 +6,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import DriveListing from "@/components/profile/DriveListing";
 
+/**
+ * Renders a card displaying the rides for a specific user as a driver.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {string} props.userId - The ID of the user.
+ * @returns {JSX.Element} The rendered component.
+ */
 const RidesAsDriverCard = ({ userId }: { userId: string }) => {
   const [rides, setRides] = useState<Ride[]>([]);
   const [isFetching, setIsFetching] = useState(true);

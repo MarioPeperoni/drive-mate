@@ -13,6 +13,14 @@ interface RideRecordCardProps {
   ride: Ride;
 }
 
+/**
+ * Renders a card component displaying information about a ride record.
+ *
+ * @component
+ * @param {RideRecordCardProps} props - The props for the RideRecordCard component.
+ * @param {Ride} props.ride - The ride record object containing information about the ride.
+ * @returns {JSX.Element} The rendered RideRecordCard component.
+ */
 const RideRecordCard = ({ ride }: RideRecordCardProps) => {
   return (
     <div data-testid={"ride-record-card"}>

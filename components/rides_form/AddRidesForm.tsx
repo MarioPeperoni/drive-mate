@@ -35,6 +35,11 @@ const rideSchema = z.object({
   price: z.string().min(1),
 });
 
+/**
+ * Renders a card component for adding a new ride.
+ *
+ * @returns The JSX element representing the add ride card.
+ */
 const AddRideCard = () => {
   const router = useRouter();
   const { toast } = useToast();

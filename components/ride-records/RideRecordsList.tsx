@@ -8,6 +8,9 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 import RideRecordCard from "@/components/ride-records/RideRecordCard";
 
+/**
+ * Renders a loading skeleton for the card records list.
+ */
 const CardRecordsListLoading = () => (
   <div className=" space-y-3" data-testid={"loading-skeleton"}>
     <Skeleton className="mx-auto my-auto h-36 w-[95%] sm:w-[80%]" />
@@ -17,6 +20,9 @@ const CardRecordsListLoading = () => (
   </div>
 );
 
+/**
+ * Renders a list of ride records.
+ */
 export function CardRecordsList() {
   const [rides, setRides] = useState([]);
   const [isFetching, setIsFetching] = useState(true);

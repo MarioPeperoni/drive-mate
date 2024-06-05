@@ -19,6 +19,9 @@ const searchSchema = z.object({
   startDate: z.date(),
 });
 
+/**
+ * Renders a search card component that allows users to input search parameters and submit a search.
+ */
 const SearchCard = () => {
   const searchParams = useSearchParams();
   const router = useRouter();

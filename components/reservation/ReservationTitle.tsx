@@ -10,6 +10,13 @@ interface ReservationElementProps {
   ride: Ride;
 }
 
+/**
+ * Renders the title section of a reservation.
+ *
+ * @component
+ * @param {ReservationElementProps} ride - The reservation details.
+ * @returns {JSX.Element} The rendered title section.
+ */
 const ReservationTitle = ({ ride }: ReservationElementProps) => {
   return (
     <section className="flex w-full flex-col gap-2 lg:flex-row">

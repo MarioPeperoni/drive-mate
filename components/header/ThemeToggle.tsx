@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 import { LuMoonStar } from "react-icons/lu";
 import { FaSun } from "react-icons/fa";
 
+/**
+ * Renders a theme toggle button that allows the user to switch between light and dark themes.
+ */
 const ThemeToggle = () => {
   const { setTheme, theme } = useTheme();
 

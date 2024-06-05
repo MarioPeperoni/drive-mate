@@ -14,6 +14,11 @@ import {
 import RidesAsDriverCard from "@/components/profile/RidesAsDriverCard";
 import RidesAsPassagerCard from "@/components/profile/RidesAsPassagerCard";
 
+/**
+ * Renders the profile page component.
+ *
+ * @returns The JSX element representing the profile page.
+ */
 const ProfilePage = () => {
   const user = useUser();
 
