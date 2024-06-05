@@ -40,8 +40,8 @@ Licencja ta umożliwia użytkownikom swobodne korzystanie z oprogramowania, w ty
 | --------------------------- | ----------------------------------- |
 | Język programowania klienta | TypeScript (_w frameworku Next.js_) |
 | Język programowania serwera | C# (_w frameworku ASP.NET Core_)    |
-| Framework frontend          | NEXT.JS z ReactJS                   |
-| Framework backend           | ASP.NET Core                        |
+| Framework frontend          | NEXT.JS _v14.1.4_ z ReactJS   _v18.0_                |
+| Framework backend           | ASP.NET Core _v8.0_                       |
 | Baza danych                 | PostgreSQL (_hostowana na Neon_)    |
 | Testowanie                  | Jest, React Testing Library         |
 | Kontrola wersji             | Git                                 |
